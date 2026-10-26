@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36429.23 d17.14
+VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCervMonitor.Api", "DCervMonitor.Api\DCervMonitor.Api.csproj", "{979A6FE3-BB84-4A22-A383-08D18833F48E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCervMonitor.Domain", "DCervMonitor.Domain\DCervMonitor.Domain.csproj", "{2F83DA95-AB6E-4E94-ACA5-EC3BF58922C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCervMonitor.Application", "DCervMonitor.Application\DCervMonitor.Application.csproj", "{9D149929-2D30-4069-97CA-C76F52D7C321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCervMonitor.Infrastructure", "DCervMonitor.Infrastructure\DCervMonitor.Infrastructure.csproj", "{57F40227-311D-4126-9706-A39F79698AC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{2F83DA95-AB6E-4E94-ACA5-EC3BF58922C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F83DA95-AB6E-4E94-ACA5-EC3BF58922C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F83DA95-AB6E-4E94-ACA5-EC3BF58922C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D149929-2D30-4069-97CA-C76F52D7C321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D149929-2D30-4069-97CA-C76F52D7C321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D149929-2D30-4069-97CA-C76F52D7C321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D149929-2D30-4069-97CA-C76F52D7C321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F40227-311D-4126-9706-A39F79698AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F40227-311D-4126-9706-A39F79698AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F40227-311D-4126-9706-A39F79698AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F40227-311D-4126-9706-A39F79698AC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

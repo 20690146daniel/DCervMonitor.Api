@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DCervMonitor.Domain.Entities;
 
 namespace DCervMonitor.Application.Abstractions.Persistence
 {
-    internal class IMetricRepository
+    public interface IMetricRepository
     {
+        Task AddAsync(MetricSample metric,CancellationToken cancellationtoken = default);
+
+
     }
 }
