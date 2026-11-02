@@ -18,7 +18,7 @@ namespace DCervMonitor.Infrastructure.Persistence
         protected override void  OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.ApplyConfiguration(new MetricSampleConfiguration)
+            modelBuilder.ApplyConfiguration(new MetricSampleConfiguration());
         }
 
     }

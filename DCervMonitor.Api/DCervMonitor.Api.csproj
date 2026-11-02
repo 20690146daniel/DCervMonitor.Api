@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DCervMonitor.Application\DCervMonitor.Application.csproj" />
+    <ProjectReference Include="..\DCervMonitor.Domain\DCervMonitor.Domain.csproj" />
+    <ProjectReference Include="..\DCervMonitor.Infrastructure\DCervMonitor.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
